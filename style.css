@@ -71,3 +71,41 @@ img {
 .clear {
   clear: both;
 }
+
+
+/* Esercizio 10-05 */
+@media screen and  (max-width: 420px) {
+    
+  #lezioni.container .row{
+  width: 100%;
+  background-color: cadetblue;
+  }
+  
+  #lezioni .row>.right{
+    width: 100%;
+  }
+
+  #left{
+    margin-right: 20px;
+  }
+  /* secondo step */
+
+  #steps .row{
+    width: 100%;
+    background-color: cornflowerblue;
+  }
+  #steps .row>.central{
+   width: 100%;
+   text-align: center;
+  }
+
+/* ultimo step */
+  #why .row{
+    width: 100%;
+    background-color: cyan;
+    text-align: center;
+  }
+  
+
+   
+}
